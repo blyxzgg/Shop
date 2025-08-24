@@ -1,0 +1,36 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Volkhov", sans-serif;
+    --third-family: "Jost", sans-serif;
+    --font4: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}

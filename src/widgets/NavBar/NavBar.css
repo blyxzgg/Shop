@@ -1,0 +1,129 @@
+/* nav__top */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__content {
+    display: flex !important;
+    flex-direction: column;
+    gap: 95px;
+    margin-top: 70px !important;
+}
+
+.nav__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 58px;
+}
+
+.nav__content-logo a {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+    color: #484848;
+}
+
+.nav__list-link a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #484848;
+    user-select: none;
+}
+
+/* nav__middle */
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 35px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.left-model {
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    width: auto;
+    height: auto;
+}
+
+.right-model {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    width: auto;
+    height: auto;
+}
+
+.top-banner {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: auto;
+    width: auto;
+}
+
+
+.bottom-banner {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    width: auto;
+    height: auto;
+}
+
+.main-content h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 91px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #484848;
+}
+
+.main-content h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 187px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    text-align: center;
+}
+
+.main-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #484848;
+}
+
+/* nav__bottom */
+
+.brands__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 79px;
+    margin-top: 40px;
+}
